@@ -21,3 +21,4 @@ if __name__ == "__main__":
     start = time.time()
     loop.run_until_complete(asyncio.wait(tasks))
     print('time: ', time.time() - start)
+    loop.close()
